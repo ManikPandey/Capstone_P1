@@ -1,0 +1,990 @@
+{
+  "summary": {
+    "id": "inc-a90fc8",
+    "title": "Jewelry Store Heist (Demo)",
+    "type": "Investigation",
+    "date": "2026-10-06",
+    "status": "Reviewing",
+    "witnessCount": 5,
+    "contradictionCount": 17
+  },
+  "data": {
+    "statements": [
+      {
+        "id": "stmt_0",
+        "witness": "Witness A",
+        "text": "I was stationed by the glass doors of the Tanishq showroom on MG Road. Two masked robbers stormed inside. The robbers ordered all customers to lie flat on the floor. The primary robber was wearing a dark leather jacket and blue jeans.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     ",
+        "status": "Processed"
+      },
+      {
+        "id": "stmt_1",
+        "witness": "Witness B",
+        "text": "I run. three robbers sprinted out of the store entrance carrying heavy duffel bags.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     ",
+        "status": "Processed"
+      },
+      {
+        "id": "stmt_2",
+        "witness": "Witness C",
+        "text": "the primary robber wore a dark leather jacket. the commotion erupted. the primary robber revved a motorcycle. the primary robber headed... the primary robber fled.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     ",
+        "status": "Processed"
+      },
+      {
+        "id": "stmt_3",
+        "witness": "Witness D",
+        "text": "I was walking along MG Road. the thieves dashed. The primary robber was wearing a bright red hoodie with beige cargo pants.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     ",
+        "status": "Processed"
+      },
+      {
+        "id": "stmt_4",
+        "witness": "Witness E",
+        "text": "I securing the cash register. The thieves took fifty lakhs worth of diamond necklaces and luxury watches from the vault counters. I emergency sirens began blaring.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     ",
+        "status": "Processed"
+      }
+    ],
+    "markers": [
+      {
+        "id": "m_1",
+        "lat": 40.713300000000004,
+        "lng": -74.0055,
+        "label": "MG Road",
+        "witness": "Witness A",
+        "color": "blue"
+      },
+      {
+        "id": "m_3",
+        "lat": 40.7143,
+        "lng": -74.00450000000001,
+        "label": "MG Road",
+        "witness": "Witness C",
+        "color": "blue"
+      },
+      {
+        "id": "m_4",
+        "lat": 40.714800000000004,
+        "lng": -74.004,
+        "label": "MG Road",
+        "witness": "Witness D",
+        "color": "blue"
+      }
+    ],
+    "timeline": [
+      {
+        "id": "ev_0",
+        "content": "I was stationed by the glass doors of the Tanishq showroom on MG Road",
+        "start": "2026-10-06T11:26:27.148697",
+        "witness": "Witness A",
+        "className": "border-l-4 border-blue-500 bg-[var(--bg-surface)] text-[var(--text-primary)]"
+      },
+      {
+        "id": "ev_1",
+        "content": "Two masked robbers stormed inside ",
+        "start": "2026-10-06T11:27:27.148697",
+        "witness": "Witness A",
+        "className": "border-l-4 border-blue-500 bg-[var(--bg-surface)] text-[var(--text-primary)]"
+      },
+      {
+        "id": "ev_2",
+        "content": "The robbers ordered all customers to lie flat on the floor",
+        "start": "2026-10-06T11:28:27.148697",
+        "witness": "Witness A",
+        "className": "border-l-4 border-blue-500 bg-[var(--bg-surface)] text-[var(--text-primary)]"
+      },
+      {
+        "id": "ev_3",
+        "content": "The primary robber was wearing a dark leather jacket and blue jeans",
+        "start": "2026-10-06T11:29:27.148697",
+        "witness": "Witness A",
+        "className": "border-l-4 border-blue-500 bg-[var(--bg-surface)] text-[var(--text-primary)]"
+      },
+      {
+        "id": "ev_4",
+        "content": "I run ",
+        "start": "2026-10-06T11:30:27.148697",
+        "witness": "Witness B",
+        "className": "border-l-4 border-red-500 bg-[var(--bg-surface)] text-[var(--text-primary)]"
+      },
+      {
+        "id": "ev_5",
+        "content": "three robbers sprinted out of the store entrance carrying heavy duffel bags",
+        "start": "2026-10-06T11:31:27.148697",
+        "witness": "Witness B",
+        "className": "border-l-4 border-red-500 bg-[var(--bg-surface)] text-[var(--text-primary)]"
+      },
+      {
+        "id": "ev_6",
+        "content": "the robbers pushed past frightened pedestrians on the sidewalk as people screamed for police assistance",
+        "start": "2026-10-06T11:32:27.148697",
+        "witness": "Witness B",
+        "className": "border-l-4 border-red-500 bg-[var(--bg-surface)] text-[var(--text-primary)]"
+      },
+      {
+        "id": "ev_7",
+        "content": "the commotion erupted ",
+        "start": "2026-10-06T11:33:27.148697",
+        "witness": "Witness C",
+        "className": "border-l-4 border-green-500 bg-[var(--bg-surface)] text-[var(--text-primary)]"
+      },
+      {
+        "id": "ev_8",
+        "content": "the primary robber wore a dark leather jacket",
+        "start": "2026-10-06T11:34:27.148697",
+        "witness": "Witness C",
+        "className": "border-l-4 border-green-500 bg-[var(--bg-surface)] text-[var(--text-primary)]"
+      },
+      {
+        "id": "ev_9",
+        "content": "the primary robber fled ",
+        "start": "2026-10-06T11:35:27.148697",
+        "witness": "Witness C",
+        "className": "border-l-4 border-green-500 bg-[var(--bg-surface)] text-[var(--text-primary)]"
+      },
+      {
+        "id": "ev_10",
+        "content": "the primary robber revved a motorcycle",
+        "start": "2026-10-06T11:36:27.148697",
+        "witness": "Witness C",
+        "className": "border-l-4 border-green-500 bg-[var(--bg-surface)] text-[var(--text-primary)]"
+      },
+      {
+        "id": "ev_11",
+        "content": "the primary robber headed ",
+        "start": "2026-10-06T11:37:27.148697",
+        "witness": "Witness C",
+        "className": "border-l-4 border-green-500 bg-[var(--bg-surface)] text-[var(--text-primary)]"
+      },
+      {
+        "id": "ev_12",
+        "content": "I was walking along MG Road",
+        "start": "2026-10-06T11:38:27.148697",
+        "witness": "Witness D",
+        "className": "border-l-4 border-purple-500 bg-[var(--bg-surface)] text-[var(--text-primary)]"
+      },
+      {
+        "id": "ev_13",
+        "content": "the thieves dashed ",
+        "start": "2026-10-06T11:39:27.148697",
+        "witness": "Witness D",
+        "className": "border-l-4 border-purple-500 bg-[var(--bg-surface)] text-[var(--text-primary)]"
+      },
+      {
+        "id": "ev_14",
+        "content": "The primary robber was wearing a bright red hoodie with beige cargo pants",
+        "start": "2026-10-06T11:40:27.148697",
+        "witness": "Witness D",
+        "className": "border-l-4 border-purple-500 bg-[var(--bg-surface)] text-[var(--text-primary)]"
+      },
+      {
+        "id": "ev_15",
+        "content": "I securing the cash register",
+        "start": "2026-10-06T11:41:27.148697",
+        "witness": "Witness E",
+        "className": "border-l-4 border-yellow-500 bg-[var(--bg-surface)] text-[var(--text-primary)]"
+      },
+      {
+        "id": "ev_16",
+        "content": "The thieves took fifty lakhs worth of diamond necklaces and luxury watches from the vault counters",
+        "start": "2026-10-06T11:42:27.148697",
+        "witness": "Witness E",
+        "className": "border-l-4 border-yellow-500 bg-[var(--bg-surface)] text-[var(--text-primary)]"
+      },
+      {
+        "id": "ev_17",
+        "content": "I emergency sirens began blaring ",
+        "start": "2026-10-06T11:43:27.148697",
+        "witness": "Witness E",
+        "className": "border-l-4 border-yellow-500 bg-[var(--bg-surface)] text-[var(--text-primary)]"
+      }
+    ],
+    "contradictions": [
+      {
+        "id": "c_0",
+        "type": "semantic",
+        "title": "Flagged Discrepancy #1",
+        "rationale": "The first statement specifies being stationed by glass doors of a Tanishq showroom, while the second only mentions walking along MG Road without mentioning any specific location or activity.",
+        "claims": [
+          {
+            "witness": "Witness A",
+            "snippet": " doors of the",
+            "fullText": "I was stationed by the glass doors of the Tanishq showroom on MG Road. Two masked robbers stormed inside. The robbers ordered all customers to lie flat on the floor. The primary robber was wearing a dark leather jacket and blue jeans.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     ",
+            "span": [
+              28,
+              41
+            ]
+          },
+          {
+            "witness": "Witness D",
+            "snippet": "was walking",
+            "fullText": "I was walking along MG Road. the thieves dashed. The primary robber was wearing a bright red hoodie with beige cargo pants.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     ",
+            "span": [
+              2,
+              13
+            ]
+          }
+        ]
+      },
+      {
+        "id": "c_1",
+        "type": "semantic",
+        "title": "Flagged Discrepancy #2",
+        "rationale": "Statement 1 describes two masked robbers entering a location while Statement 2 mentions three robbers sprinting out carrying duffel bags.",
+        "claims": [
+          {
+            "witness": "Witness A",
+            "snippet": "s ordered all ",
+            "fullText": "I was stationed by the glass doors of the Tanishq showroom on MG Road. Two masked robbers stormed inside. The robbers ordered all customers to lie flat on the floor. The primary robber was wearing a dark leather jacket and blue jeans.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     ",
+            "span": [
+              116,
+              130
+            ]
+          },
+          {
+            "witness": "Witness B",
+            "snippet": "        ",
+            "fullText": "I run. three robbers sprinted out of the store entrance carrying heavy duffel bags.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     ",
+            "span": [
+              117,
+              125
+            ]
+          }
+        ]
+      },
+      {
+        "id": "c_2",
+        "type": "semantic",
+        "title": "Flagged Discrepancy #3",
+        "rationale": "In Statement 1, it is stated that two masked robbers stormed inside; in contrast, Statement 2 mentions only one robber fleeing.",
+        "claims": [
+          {
+            "witness": "Witness A",
+            "snippet": "s ordered all ",
+            "fullText": "I was stationed by the glass doors of the Tanishq showroom on MG Road. Two masked robbers stormed inside. The robbers ordered all customers to lie flat on the floor. The primary robber was wearing a dark leather jacket and blue jeans.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     ",
+            "span": [
+              116,
+              130
+            ]
+          },
+          {
+            "witness": "Witness C",
+            "snippet": "ary ",
+            "fullText": "the primary robber wore a dark leather jacket. the commotion erupted. the primary robber revved a motorcycle. the primary robber headed... the primary robber fled.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     ",
+            "span": [
+              147,
+              151
+            ]
+          }
+        ]
+      },
+      {
+        "id": "c_3",
+        "type": "semantic",
+        "title": "Flagged Discrepancy #4",
+        "rationale": "The first statement mentions two masked robbers storming in while the second specifies that the primary robber was revving a motorcycle.",
+        "claims": [
+          {
+            "witness": "Witness A",
+            "snippet": "s ordered all ",
+            "fullText": "I was stationed by the glass doors of the Tanishq showroom on MG Road. Two masked robbers stormed inside. The robbers ordered all customers to lie flat on the floor. The primary robber was wearing a dark leather jacket and blue jeans.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     ",
+            "span": [
+              116,
+              130
+            ]
+          },
+          {
+            "witness": "Witness C",
+            "snippet": "mary",
+            "fullText": "the primary robber wore a dark leather jacket. the commotion erupted. the primary robber revved a motorcycle. the primary robber headed... the primary robber fled.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     ",
+            "span": [
+              7,
+              11
+            ]
+          }
+        ]
+      },
+      {
+        "id": "c_4",
+        "type": "semantic",
+        "title": "Flagged Discrepancy #5",
+        "rationale": "The primary robber in Statement 1 was described as wearing a dark leather jacket and blue jeans, while Statement 2 mentions three robbers sprinting out of the store entrance carrying heavy duffel bags without specifying attire.",
+        "claims": [
+          {
+            "witness": "Witness A",
+            "snippet": "tatione",
+            "fullText": "I was stationed by the glass doors of the Tanishq showroom on MG Road. Two masked robbers stormed inside. The robbers ordered all customers to lie flat on the floor. The primary robber was wearing a dark leather jacket and blue jeans.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     ",
+            "span": [
+              7,
+              14
+            ]
+          },
+          {
+            "witness": "Witness B",
+            "snippet": "        ",
+            "fullText": "I run. three robbers sprinted out of the store entrance carrying heavy duffel bags.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     ",
+            "span": [
+              117,
+              125
+            ]
+          }
+        ]
+      },
+      {
+        "id": "c_5",
+        "type": "semantic",
+        "title": "Flagged Discrepancy #6",
+        "rationale": "The first statement specifies the attire of the primary robber as a dark leather jacket and blue jeans while the second only mentions that they fled.",
+        "claims": [
+          {
+            "witness": "Witness A",
+            "snippet": "tatione",
+            "fullText": "I was stationed by the glass doors of the Tanishq showroom on MG Road. Two masked robbers stormed inside. The robbers ordered all customers to lie flat on the floor. The primary robber was wearing a dark leather jacket and blue jeans.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     ",
+            "span": [
+              7,
+              14
+            ]
+          },
+          {
+            "witness": "Witness C",
+            "snippet": "ary ",
+            "fullText": "the primary robber wore a dark leather jacket. the commotion erupted. the primary robber revved a motorcycle. the primary robber headed... the primary robber fled.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     ",
+            "span": [
+              147,
+              151
+            ]
+          }
+        ]
+      },
+      {
+        "id": "c_6",
+        "type": "semantic",
+        "title": "Flagged Discrepancy #7",
+        "rationale": "The first statement describes the appearance of the primary robber as wearing a dark leather jacket and blue jeans, while the second statement mentions that they revved a motorcycle.",
+        "claims": [
+          {
+            "witness": "Witness A",
+            "snippet": "tatione",
+            "fullText": "I was stationed by the glass doors of the Tanishq showroom on MG Road. Two masked robbers stormed inside. The robbers ordered all customers to lie flat on the floor. The primary robber was wearing a dark leather jacket and blue jeans.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     ",
+            "span": [
+              7,
+              14
+            ]
+          },
+          {
+            "witness": "Witness C",
+            "snippet": "mary",
+            "fullText": "the primary robber wore a dark leather jacket. the commotion erupted. the primary robber revved a motorcycle. the primary robber headed... the primary robber fled.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     ",
+            "span": [
+              7,
+              11
+            ]
+          }
+        ]
+      },
+      {
+        "id": "c_7",
+        "type": "semantic",
+        "title": "Flagged Discrepancy #8",
+        "rationale": "The first statement specifies that the primary robber wore a dark leather jacket and blue jeans, while the second statement does not mention any clothing details.",
+        "claims": [
+          {
+            "witness": "Witness A",
+            "snippet": "tatione",
+            "fullText": "I was stationed by the glass doors of the Tanishq showroom on MG Road. Two masked robbers stormed inside. The robbers ordered all customers to lie flat on the floor. The primary robber was wearing a dark leather jacket and blue jeans.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     ",
+            "span": [
+              7,
+              14
+            ]
+          },
+          {
+            "witness": "Witness C",
+            "snippet": "the primary robber wore a dark leather jacket. the",
+            "fullText": "the primary robber wore a dark leather jacket. the commotion erupted. the primary robber revved a motorcycle. the primary robber headed... the primary robber fled.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     ",
+            "span": [
+              0,
+              50
+            ]
+          }
+        ]
+      },
+      {
+        "id": "c_8",
+        "type": "semantic",
+        "title": "Flagged Discrepancy #9",
+        "rationale": "The first statement specifies the attire of the primary robber as wearing a dark leather jacket and blue jeans, while the second statement only mentions that the thieves dashed without providing any details about their appearance.",
+        "claims": [
+          {
+            "witness": "Witness A",
+            "snippet": "tatione",
+            "fullText": "I was stationed by the glass doors of the Tanishq showroom on MG Road. Two masked robbers stormed inside. The robbers ordered all customers to lie flat on the floor. The primary robber was wearing a dark leather jacket and blue jeans.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     ",
+            "span": [
+              7,
+              14
+            ]
+          },
+          {
+            "witness": "Witness D",
+            "snippet": "ed. Th",
+            "fullText": "I was walking along MG Road. the thieves dashed. The primary robber was wearing a bright red hoodie with beige cargo pants.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     ",
+            "span": [
+              45,
+              51
+            ]
+          }
+        ]
+      },
+      {
+        "id": "c_9",
+        "type": "semantic",
+        "title": "Flagged Discrepancy #10",
+        "rationale": "The primary robber in Statement 1 wore a dark leather jacket and blue jeans while in Statement 2 they were wearing a bright red hoodie with beige cargo pants",
+        "claims": [
+          {
+            "witness": "Witness A",
+            "snippet": "tatione",
+            "fullText": "I was stationed by the glass doors of the Tanishq showroom on MG Road. Two masked robbers stormed inside. The robbers ordered all customers to lie flat on the floor. The primary robber was wearing a dark leather jacket and blue jeans.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     ",
+            "span": [
+              7,
+              14
+            ]
+          },
+          {
+            "witness": "Witness D",
+            "snippet": " with beige",
+            "fullText": "I was walking along MG Road. the thieves dashed. The primary robber was wearing a bright red hoodie with beige cargo pants.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     ",
+            "span": [
+              99,
+              110
+            ]
+          }
+        ]
+      },
+      {
+        "id": "c_10",
+        "type": "semantic",
+        "title": "Flagged Discrepancy #11",
+        "rationale": "Statement 1 describes three robbers sprinting out of a store with heavy duffel bags while Statement 2 mentions only one robber fleeing",
+        "claims": [
+          {
+            "witness": "Witness B",
+            "snippet": "        ",
+            "fullText": "I run. three robbers sprinted out of the store entrance carrying heavy duffel bags.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     ",
+            "span": [
+              117,
+              125
+            ]
+          },
+          {
+            "witness": "Witness C",
+            "snippet": "ary ",
+            "fullText": "the primary robber wore a dark leather jacket. the commotion erupted. the primary robber revved a motorcycle. the primary robber headed... the primary robber fled.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     ",
+            "span": [
+              147,
+              151
+            ]
+          }
+        ]
+      },
+      {
+        "id": "c_11",
+        "type": "semantic",
+        "title": "Flagged Discrepancy #12",
+        "rationale": "Statement 1 describes robbers sprinting out of a store with heavy duffel bags while Statement 2 only mentions one robber heading somewhere",
+        "claims": [
+          {
+            "witness": "Witness B",
+            "snippet": "        ",
+            "fullText": "I run. three robbers sprinted out of the store entrance carrying heavy duffel bags.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     ",
+            "span": [
+              117,
+              125
+            ]
+          },
+          {
+            "witness": "Witness C",
+            "snippet": "the primary robber wore a dark leather jacket. the",
+            "fullText": "the primary robber wore a dark leather jacket. the commotion erupted. the primary robber revved a motorcycle. the primary robber headed... the primary robber fled.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     ",
+            "span": [
+              0,
+              50
+            ]
+          }
+        ]
+      },
+      {
+        "id": "c_12",
+        "type": "semantic",
+        "title": "Flagged Discrepancy #13",
+        "rationale": "Statement 1 describes robbers sprinting with heavy duffel bags out of a store entrance while Statement 2 states that thieves dashed without specifying their load.",
+        "claims": [
+          {
+            "witness": "Witness B",
+            "snippet": "        ",
+            "fullText": "I run. three robbers sprinted out of the store entrance carrying heavy duffel bags.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     ",
+            "span": [
+              117,
+              125
+            ]
+          },
+          {
+            "witness": "Witness D",
+            "snippet": "ed. Th",
+            "fullText": "I was walking along MG Road. the thieves dashed. The primary robber was wearing a bright red hoodie with beige cargo pants.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     ",
+            "span": [
+              45,
+              51
+            ]
+          }
+        ]
+      },
+      {
+        "id": "c_13",
+        "type": "semantic",
+        "title": "Flagged Discrepancy #14",
+        "rationale": "The primary robber in Statement 1 wore a dark leather jacket while in Statement 2 they were wearing a bright red hoodie with beige cargo pants.",
+        "claims": [
+          {
+            "witness": "Witness C",
+            "snippet": "the primary robber wore a dark leather jacket. the",
+            "fullText": "the primary robber wore a dark leather jacket. the commotion erupted. the primary robber revved a motorcycle. the primary robber headed... the primary robber fled.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     ",
+            "span": [
+              0,
+              50
+            ]
+          },
+          {
+            "witness": "Witness D",
+            "snippet": " with beige",
+            "fullText": "I was walking along MG Road. the thieves dashed. The primary robber was wearing a bright red hoodie with beige cargo pants.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     ",
+            "span": [
+              99,
+              110
+            ]
+          }
+        ]
+      },
+      {
+        "id": "c_14",
+        "type": "semantic",
+        "title": "Flagged Discrepancy #15",
+        "rationale": "The first statement specifies that the primary robber fled, while the second states that all thieves dashed.",
+        "claims": [
+          {
+            "witness": "Witness C",
+            "snippet": "ary ",
+            "fullText": "the primary robber wore a dark leather jacket. the commotion erupted. the primary robber revved a motorcycle. the primary robber headed... the primary robber fled.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     ",
+            "span": [
+              147,
+              151
+            ]
+          },
+          {
+            "witness": "Witness D",
+            "snippet": "ed. Th",
+            "fullText": "I was walking along MG Road. the thieves dashed. The primary robber was wearing a bright red hoodie with beige cargo pants.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     ",
+            "span": [
+              45,
+              51
+            ]
+          }
+        ]
+      },
+      {
+        "id": "c_15",
+        "type": "semantic",
+        "title": "Flagged Discrepancy #16",
+        "rationale": "The first statement specifies that the primary robber wore a dark leather jacket and blue jeans while fleeing in the second.",
+        "claims": [
+          {
+            "witness": "Witness A",
+            "snippet": "tatione",
+            "fullText": "I was stationed by the glass doors of the Tanishq showroom on MG Road. Two masked robbers stormed inside. The robbers ordered all customers to lie flat on the floor. The primary robber was wearing a dark leather jacket and blue jeans.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     ",
+            "span": [
+              7,
+              14
+            ]
+          },
+          {
+            "witness": "Witness C",
+            "snippet": "ary ",
+            "fullText": "the primary robber wore a dark leather jacket. the commotion erupted. the primary robber revved a motorcycle. the primary robber headed... the primary robber fled.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     ",
+            "span": [
+              147,
+              151
+            ]
+          }
+        ]
+      },
+      {
+        "id": "c_16",
+        "type": "semantic",
+        "title": "Flagged Discrepancy #17",
+        "rationale": "The primary robber in Statement 1 wore a dark leather jacket and blue jeans while in Statement 2 they were wearing a bright red hoodie with beige cargo pants",
+        "claims": [
+          {
+            "witness": "Witness A",
+            "snippet": "tatione",
+            "fullText": "I was stationed by the glass doors of the Tanishq showroom on MG Road. Two masked robbers stormed inside. The robbers ordered all customers to lie flat on the floor. The primary robber was wearing a dark leather jacket and blue jeans.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     ",
+            "span": [
+              7,
+              14
+            ]
+          },
+          {
+            "witness": "Witness D",
+            "snippet": " with beige",
+            "fullText": "I was walking along MG Road. the thieves dashed. The primary robber was wearing a bright red hoodie with beige cargo pants.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     ",
+            "span": [
+              99,
+              110
+            ]
+          }
+        ]
+      }
+    ],
+    "raw_entities": [
+      {
+        "source_statement_id": "stmt_0",
+        "source_span": [
+          68,
+          75
+        ],
+        "text": "Tanishq",
+        "label": "PERSON",
+        "attributes": {},
+        "entity_cluster_id": "476de302-8874-4c1a-ad0f-ed212552f7f0"
+      },
+      {
+        "source_statement_id": "stmt_0",
+        "source_span": [
+          88,
+          95
+        ],
+        "text": "MG Road",
+        "label": "LOCATION",
+        "attributes": {},
+        "entity_cluster_id": "a2099759-8c31-4365-920e-e5cbe0097d88"
+      },
+      {
+        "source_statement_id": "stmt_1",
+        "source_span": [
+          33,
+          40
+        ],
+        "text": "Tanishq",
+        "label": "PERSON",
+        "attributes": {},
+        "entity_cluster_id": "1b59833b-f6c3-4496-9a2e-5e4af9d2b5f3"
+      },
+      {
+        "source_statement_id": "stmt_2",
+        "source_span": [
+          22,
+          29
+        ],
+        "text": "MG Road",
+        "label": "LOCATION",
+        "attributes": {},
+        "entity_cluster_id": "2582f533-6fb2-4b53-b15a-296980225c5f"
+      },
+      {
+        "source_statement_id": "stmt_3",
+        "source_span": [
+          20,
+          27
+        ],
+        "text": "MG Road",
+        "label": "LOCATION",
+        "attributes": {},
+        "entity_cluster_id": "c9c972c2-7204-4821-8e0b-ce57b36c463e"
+      }
+    ],
+    "raw_events": [
+      {
+        "source_statement_id": "stmt_0",
+        "source_span": [
+          28,
+          41
+        ],
+        "text": "I was stationed by the glass doors of the Tanishq showroom on MG Road",
+        "subject": "I",
+        "action": "was stationed",
+        "object": "by the glass doors of the Tanishq showroom on MG Road",
+        "time_ref": null,
+        "location_ref": null,
+        "confidence": 1.0,
+        "low_confidence": false,
+        "negated": false
+      },
+      {
+        "source_statement_id": "stmt_0",
+        "source_span": [
+          116,
+          130
+        ],
+        "text": "Two masked robbers stormed inside",
+        "subject": "Two masked robbers",
+        "action": "stormed inside",
+        "object": "",
+        "time_ref": null,
+        "location_ref": null,
+        "confidence": 1.0,
+        "low_confidence": false,
+        "negated": false
+      },
+      {
+        "source_statement_id": "stmt_0",
+        "source_span": [
+          152,
+          159
+        ],
+        "text": "The robbers ordered all customers to lie flat on the floor",
+        "subject": "The robbers",
+        "action": "ordered",
+        "object": "all customers to lie flat on the floor",
+        "time_ref": null,
+        "location_ref": null,
+        "confidence": 1.0,
+        "low_confidence": false,
+        "negated": false
+      },
+      {
+        "source_statement_id": "stmt_0",
+        "source_span": [
+          7,
+          14
+        ],
+        "text": "The primary robber was wearing a dark leather jacket and blue jeans",
+        "subject": "The primary robber",
+        "action": "was wearing",
+        "object": "a dark leather jacket and blue jeans",
+        "time_ref": null,
+        "location_ref": null,
+        "confidence": 1.0,
+        "low_confidence": false,
+        "negated": false
+      },
+      {
+        "source_statement_id": "stmt_1",
+        "source_span": [
+          7,
+          10
+        ],
+        "text": "I run",
+        "subject": "I",
+        "action": "run",
+        "object": "",
+        "time_ref": null,
+        "location_ref": null,
+        "confidence": 1.0,
+        "low_confidence": false,
+        "negated": false
+      },
+      {
+        "source_statement_id": "stmt_1",
+        "source_span": [
+          117,
+          125
+        ],
+        "text": "three robbers sprinted out of the store entrance carrying heavy duffel bags",
+        "subject": "three robbers",
+        "action": "sprinted",
+        "object": "out of the store entrance carrying heavy duffel bags",
+        "time_ref": null,
+        "location_ref": null,
+        "confidence": 1.0,
+        "low_confidence": false,
+        "negated": false
+      },
+      {
+        "source_statement_id": "stmt_1",
+        "source_span": [
+          4,
+          14
+        ],
+        "text": "the robbers pushed past frightened pedestrians on the sidewalk as people screamed for police assistance",
+        "subject": "the robbers",
+        "action": "pushed",
+        "object": "past frightened pedestrians on the sidewalk as people screamed for police assistance",
+        "time_ref": null,
+        "location_ref": null,
+        "confidence": 1.0,
+        "low_confidence": false,
+        "negated": false
+      },
+      {
+        "source_statement_id": "stmt_2",
+        "source_span": [
+          81,
+          88
+        ],
+        "text": "the commotion erupted",
+        "subject": "the commotion",
+        "action": "erupted",
+        "object": "",
+        "time_ref": null,
+        "location_ref": null,
+        "confidence": 1.0,
+        "low_confidence": false,
+        "negated": false
+      },
+      {
+        "source_statement_id": "stmt_2",
+        "source_span": [
+          0,
+          50
+        ],
+        "text": "the primary robber wore a dark leather jacket",
+        "subject": "the primary robber",
+        "action": "wore",
+        "object": "a dark leather jacket",
+        "time_ref": null,
+        "location_ref": null,
+        "confidence": 1.0,
+        "low_confidence": false,
+        "negated": false
+      },
+      {
+        "source_statement_id": "stmt_2",
+        "source_span": [
+          147,
+          151
+        ],
+        "text": "the primary robber fled",
+        "subject": "the primary robber",
+        "action": "fled",
+        "object": "",
+        "time_ref": null,
+        "location_ref": null,
+        "confidence": 1.0,
+        "low_confidence": false,
+        "negated": false
+      },
+      {
+        "source_statement_id": "stmt_2",
+        "source_span": [
+          7,
+          11
+        ],
+        "text": "the primary robber revved a motorcycle",
+        "subject": "the primary robber",
+        "action": "revved",
+        "object": "a motorcycle",
+        "time_ref": null,
+        "location_ref": null,
+        "confidence": 1.0,
+        "low_confidence": false,
+        "negated": false
+      },
+      {
+        "source_statement_id": "stmt_2",
+        "source_span": [
+          0,
+          50
+        ],
+        "text": "the primary robber headed",
+        "subject": "the primary robber",
+        "action": "headed",
+        "object": "",
+        "time_ref": null,
+        "location_ref": null,
+        "confidence": 1.0,
+        "low_confidence": false,
+        "negated": false
+      },
+      {
+        "source_statement_id": "stmt_3",
+        "source_span": [
+          2,
+          13
+        ],
+        "text": "I was walking along MG Road",
+        "subject": "I",
+        "action": "was walking",
+        "object": "along MG Road",
+        "time_ref": null,
+        "location_ref": null,
+        "confidence": 1.0,
+        "low_confidence": false,
+        "negated": false
+      },
+      {
+        "source_statement_id": "stmt_3",
+        "source_span": [
+          45,
+          51
+        ],
+        "text": "the thieves dashed",
+        "subject": "the thieves",
+        "action": "dashed",
+        "object": "",
+        "time_ref": null,
+        "location_ref": null,
+        "confidence": 1.0,
+        "low_confidence": false,
+        "negated": false
+      },
+      {
+        "source_statement_id": "stmt_3",
+        "source_span": [
+          99,
+          110
+        ],
+        "text": "The primary robber was wearing a bright red hoodie with beige cargo pants",
+        "subject": "The primary robber",
+        "action": "was wearing",
+        "object": "a bright red hoodie with beige cargo pants",
+        "time_ref": null,
+        "location_ref": null,
+        "confidence": 1.0,
+        "low_confidence": false,
+        "negated": false
+      },
+      {
+        "source_statement_id": "stmt_4",
+        "source_span": [
+          6,
+          14
+        ],
+        "text": "I securing the cash register",
+        "subject": "I",
+        "action": "securing",
+        "object": "the cash register",
+        "time_ref": null,
+        "location_ref": null,
+        "confidence": 1.0,
+        "low_confidence": false,
+        "negated": false
+      },
+      {
+        "source_statement_id": "stmt_4",
+        "source_span": [
+          95,
+          99
+        ],
+        "text": "The thieves took fifty lakhs worth of diamond necklaces and luxury watches from the vault counters",
+        "subject": "The thieves",
+        "action": "took",
+        "object": "fifty lakhs worth of diamond necklaces and luxury watches from the vault counters",
+        "time_ref": null,
+        "location_ref": null,
+        "confidence": 1.0,
+        "low_confidence": false,
+        "negated": false
+      },
+      {
+        "source_statement_id": "stmt_4",
+        "source_span": [
+          187,
+          217
+        ],
+        "text": "I emergency sirens began blaring",
+        "subject": "I",
+        "action": "emergency sirens began blaring",
+        "object": "",
+        "time_ref": null,
+        "location_ref": null,
+        "confidence": 1.0,
+        "low_confidence": false,
+        "negated": false
+      }
+    ]
+  }
+}

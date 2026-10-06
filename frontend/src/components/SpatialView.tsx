@@ -13,10 +13,14 @@ L.Icon.Default.mergeOptions({
 });
 
 export const SpatialView: React.FC<{ markers: MapMarker[], pulsedMarkerId?: string }> = ({ markers, pulsedMarkerId }) => {
+  const center: [number, number] = markers.length > 0
+    ? [markers[0].lat, markers[0].lng]
+    : [12.9750, 77.6069]; // Default: MG Road, Bengaluru
+
   return (
     <div className="h-full w-full relative flex flex-col bg-[var(--bg-base)]">
       <div className="h-10 border-b border-[var(--border-hairline)] bg-[var(--bg-surface-2)] px-3 flex items-center justify-between z-10 shrink-0 absolute top-0 left-0 right-0">
-        <span className="text-[10px] font-mono text-[var(--text-muted)] uppercase tracking-wider">Spatial Map</span>
+        <span className="text-[10px] font-mono text-[var(--text-muted)] uppercase tracking-wider">Spatial Map — {markers.length} location{markers.length !== 1 ? 's' : ''}</span>
         <div className="flex space-x-1">
           <button className="text-[var(--text-muted)] hover:text-[var(--text-primary)] transition p-1 hover:bg-[var(--bg-surface)] rounded cursor-pointer focus-bracket"><Layers className="w-3.5 h-3.5" /></button>
           <button className="text-[var(--text-muted)] hover:text-[var(--text-primary)] transition p-1 hover:bg-[var(--bg-surface)] rounded cursor-pointer focus-bracket"><Maximize2 className="w-3.5 h-3.5" /></button>
@@ -24,8 +28,8 @@ export const SpatialView: React.FC<{ markers: MapMarker[], pulsedMarkerId?: stri
       </div>
       <div className="flex-1 relative z-0 pt-10 h-full">
         <MapContainer 
-          center={[40.7128, -74.0060]} 
-          zoom={17} 
+          center={center} 
+          zoom={16} 
           style={{ height: "100%", width: "100%", background: "var(--bg-base)" }}
           zoomControl={false}
         >

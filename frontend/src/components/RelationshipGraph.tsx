@@ -3,29 +3,52 @@ import ForceGraph2D from 'react-force-graph-2d';
 import { Network, Maximize2, ArrowLeft } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 
-export const RelationshipGraph: React.FC<{ isFullScreen?: boolean }> = ({ isFullScreen }) => {
+export const RelationshipGraph: React.FC<{ isFullScreen?: boolean; data?: any }> = ({ isFullScreen, data: rawData }) => {
   const containerRef = useRef<HTMLDivElement>(null);
   const [dimensions, setDimensions] = useState({ width: 800, height: 600 });
   const navigate = useNavigate();
 
-  // Mock Graph Data matching the forensic spec
+  // Dynamically map graph data from ML output
   const data = useMemo(() => {
+    if (!rawData || !rawData.raw_entities) {
+      return { nodes: [], links: [] };
+    }
+    const nodesMap = new Map();
+    const links = [];
+    
+    // Create Witness nodes and Entity nodes
+    rawData.raw_entities.forEach((ent: any) => {
+      const stmtIdx = parseInt(ent.source_statement_id?.split('_')[1] || '0');
+      const witnessId = `Witness ${String.fromCharCode(65 + stmtIdx)}`;
+      
+      // Ensure witness node exists
+      if (!nodesMap.has(witnessId)) {
+        nodesMap.set(witnessId, { id: witnessId, group: 1, val: 12 });
+      }
+      
+      // Ensure entity node exists
+      if (!nodesMap.has(ent.text)) {
+        nodesMap.set(ent.text, { id: ent.text, group: 2, val: 8 });
+      }
+      
+      // Link witness to entity they mentioned
+      links.push({ source: witnessId, target: ent.text, type: 'mention' });
+    });
+    
+    // Extract contradictions for red dotted edges
+    if (rawData.contradictions) {
+      rawData.contradictions.forEach((c: any) => {
+        if (c.claims && c.claims.length >= 2) {
+          links.push({ source: c.claims[0].witness, target: c.claims[1].witness, type: 'contradict' });
+        }
+      });
+    }
+
     return {
-      nodes: [
-        { id: 'Witness A', group: 1, val: 12 },
-        { id: 'Witness B', group: 1, val: 12 },
-        { id: 'Witness C', group: 1, val: 12 },
-        { id: 'Red Sedan', group: 2, val: 6 },
-        { id: 'Intersection', group: 2, val: 6 }
-      ],
-      links: [
-        { source: 'Witness A', target: 'Witness B', type: 'contradict' },
-        { source: 'Witness B', target: 'Witness C', type: 'corroborate' },
-        { source: 'Witness A', target: 'Red Sedan', type: 'mention' },
-        { source: 'Witness C', target: 'Red Sedan', type: 'mention' },
-      ]
+      nodes: Array.from(nodesMap.values()),
+      links: links
     };
-  }, []);
+  }, [rawData]);
 
   useEffect(() => {
     if (containerRef.current) {
